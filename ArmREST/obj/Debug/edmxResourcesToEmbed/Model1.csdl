@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AdminSet" EntityType="Model1.Admin" />
+    <EntitySet Name="EmployeeSet" EntityType="Model1.Employee" />
+    <EntitySet Name="ProductSet" EntityType="Model1.Product" />
+    <EntitySet Name="CafeSet" EntityType="Model1.Cafe" />
+    <AssociationSet Name="CafeEmployee" Association="Model1.CafeEmployee">
+      <End Role="Cafe" EntitySet="CafeSet" />
+      <End Role="Employee" EntitySet="EmployeeSet" />
+    </AssociationSet>
+    <AssociationSet Name="CafeProduct" Association="Model1.CafeProduct">
+      <End Role="Cafe" EntitySet="CafeSet" />
+      <End Role="Product" EntitySet="ProductSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" />
+    <Property Name="FIO" Type="String" Nullable="false" />
+    <Property Name="Post" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Post" Type="String" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" Nullable="false" />
+    <Property Name="Salary" Type="Int32" Nullable="false" />
+    <Property Name="Login" Type="String" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" />
+    <NavigationProperty Name="Cafe" Relationship="Model1.CafeEmployee" FromRole="Employee" ToRole="Cafe" />
+    <Property Name="CafeId" Type="Int32" Nullable="true" />
+    <Property Name="FIO" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Photo" Type="Binary" Nullable="false" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <Property Name="Calories" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Cafe" Relationship="Model1.CafeProduct" FromRole="Product" ToRole="Cafe" />
+    <Property Name="CafeId" Type="Int32" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Cafe">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Employee" Relationship="Model1.CafeEmployee" FromRole="Cafe" ToRole="Employee" />
+    <Property Name="Address" Type="String" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Schedule" Type="String" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="Model1.CafeProduct" FromRole="Cafe" ToRole="Product" />
+  </EntityType>
+  <Association Name="CafeEmployee">
+    <End Type="Model1.Cafe" Role="Cafe" Multiplicity="0..1" />
+    <End Type="Model1.Employee" Role="Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cafe">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="CafeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CafeProduct">
+    <End Type="Model1.Cafe" Role="Cafe" Multiplicity="0..1" />
+    <End Type="Model1.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cafe">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="CafeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

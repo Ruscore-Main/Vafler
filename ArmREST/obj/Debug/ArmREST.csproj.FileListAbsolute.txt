@@ -1,0 +1,40 @@
+C:\Users\RMS\source\repos\ArmREST\ArmREST\bin\Debug\ArmREST.exe.config
+C:\Users\RMS\source\repos\ArmREST\ArmREST\bin\Debug\ArmREST.exe
+C:\Users\RMS\source\repos\ArmREST\ArmREST\bin\Debug\ArmREST.pdb
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.csprojAssemblyReference.cache
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.Form1.resources
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.Form2.resources
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.Form3.resources
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.Form4.resources
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.Form5.resources
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.Form6.resources
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.Form7.resources
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.Form8.resources
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.Properties.Resources.resources
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.csproj.GenerateResource.cache
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.csproj.CoreCompileInputs.cache
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.exe
+C:\Users\RMS\source\repos\ArmREST\ArmREST\obj\Debug\ArmREST.pdb
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\bin\Debug\ArmREST.exe.config
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\bin\Debug\ArmREST.exe
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\bin\Debug\ArmREST.pdb
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.csprojAssemblyReference.cache
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.Form1.resources
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.Form2.resources
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.Form3.resources
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.Form4.resources
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.Form5.resources
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.Form6.resources
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.Form7.resources
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.Form8.resources
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.Properties.Resources.resources
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.csproj.GenerateResource.cache
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.csproj.CoreCompileInputs.cache
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.exe
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.pdb
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\bin\Debug\EntityFramework.dll
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\bin\Debug\EntityFramework.SqlServer.dll
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\bin\Debug\EntityFramework.xml
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\bin\Debug\EntityFramework.SqlServer.xml
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\bin\Debug\ru\EntityFramework.resources.dll
+D:\3 курс 2 семестр\MONEY\ArmREST\ArmREST\obj\Debug\ArmREST.csproj.CopyComplete
