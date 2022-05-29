@@ -43,6 +43,11 @@ namespace ArmREST
             textBox1.ReadOnly = true;
             textBox2.ReadOnly = true;
             textBox3.ReadOnly = true;
+
+            foreach (Product product in currentEmployee.Cafe.Product)
+            {
+                listBox1.Items.Add(product);
+            }
         }
 
         private void Form8_FormClosing(object sender, FormClosingEventArgs e)
